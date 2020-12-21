@@ -9,140 +9,278 @@
 div{
  text-align: center;   
 }
+.my-style{
+   background-color: #660000;
+  
+}
 table,td{
-    border:1px solid;
+  border:1px solid;
 border-collapse:collapse;
+padding:5px;
+
 
 }
-
+table.center {
+  margin-left:auto;
+  margin-right: auto;
+  background-color:#FFFFDD;
 }
+#blank
+{
+    width: 2%;
+    height: 10px;
+}
+.style{
+    background-color:#FFFFDD;
+    text-align: left;
+    column-span: 2;
+}
+
+
 
     </style>
 </head>
 <body>
     
-    <div>
+    <div class="my-style">
+        <font color="FFFFF">
+            <i>
+                Request For New PAN Card Or/And Changes Or Correction in PAN Data
+        </font>
+
+            </i>
+            
+       
+        <br>
+        <font color="FFFFF">
+            <i>
+                Fields marked with * (asterisk) are mandatory. .
+                To avoid mistake(s), please refer
+                <a href ="#"> guidelines </a>and <a href="#" >instructions</a>
+            </i>
+          
+        </font>
         
-        Request For New PAN Card Or/And Changes Or Correction in PAN Data
-        </div>
-        <div> Fields marked with * (asterisk) are mandatory. .
-             To avoid mistake(s), please refer
-             <a href ="#"> guidelines </a>and <a href="#" >instructions</a>
            
          </div>
          
-            <table>
+            <table class="center" cellpadding="0" cellspacig="0" width="100%">
             <tr>
-                
-                <td>
+                <td id="blank"> 
+
+                </td>
+                <td colspan="2" width="90%">
+                    
                   <b>
-                    * Whether citizen of India 
-                    </b>
+                   <font color="red">*</font>  Whether citizen of India </b>
+                    <input type="radio" name="YES" value="YES"id="YES">
+                    <label for="YES">Yes</label>
+                    <input type="radio"name="NO"value="NO" id="NO">
+                    <label for="NO">No</label>
+                    
                 </td>
             </tr>
 
             <tr>
-                <td><b>
-                *Permanent Account Number (PAN)</b>
+                <td id="blank"> 
+
+                </td>
+                <td colspan="2" width="100%"> 
+                    <b>
+                        <font color="red">*</font>
+                Permanent Account Number (PAN)</b>
                 <input type="text">
                 </td>
             </tr>
+
             <tr>
-                <td><b>
-                    * 1. Name <a href="#" >(Initials are not permitted in first and last name. Applicant's proof of identity, proof of address and proof of date of birth should contain the exact name mentioned in this field)</a></b>
+                <td id="blank"> <input type="checkbox">
+
+                </td>
+                <td colspan="2" width="98%">
+                    <b>
+                        <font color="red">*</font>
+                    1. Name
+                </b>
                 </td>
             </tr>
+
             <tr>
-                <td><b>
-                    Title    </b>
+                <td id="blank"> 
+
+                </td>
+                <td colspan="2" width="98%"> 
+                    <b>
+                    Title    
+                    
+                </b>
+                Shri/Mr<input type="radio">
+                Smt/Mrs<input type="radio">
+                Kumari/Ms<input type="radio">
+
                 </td>
             </tr>
+
             <tr>
-                <td><b>
-                    Last Name/Surname  </b>
-                        
-                </td>
-                <td>
-                    First Name
-                </td>
-                <td>
-                    Middle Name
-                </td>
+                <td id="blank"> 
+                    </td>
+                 <td colspan="2">
+                    <table width="100%" cellpadding="0" cellspacing="0">
+                        <tbody>
+                            <tr>
+                                <td>
+                                <b>Last Name/Surname  </b>
+                                <br>
+                                    <input type="text">
+                                </td>
+                                <td>
+                                    <b>First Name</b> 
+                                <br>
+                                    <input type="text">
+                                </td>
+                                <td>
+                                <b>Middle Name</b>
+                                <br>
+    
+                            <input type="text">
+                                </td> 
+
+
+                            </tr>
+                            </tbody>
+                    </table>
+                    </td>
             </tr>
+                   
+                
+                   
+
+               
+                
+                    
+                   
+        
+            
+
             <tr>
-                <td><input type="text">
+                <td id="blank"> 
+
                 </td>
-                <td><input type="text">
-                </td>
-                <td><input type="text">
-                </td>
-            </tr>
-            <tr>
-                <td><b>
-                    * Name as you would like it printed on the card <a href="#"> (Prefix like Shri, Smt, Kumari, Late, Dr, CA, Ms, Mr, Mrs, M/s, Alias etc. are not allowed)</a> </b> 
+                <td colspan="2" width="98%">
+                    <b>
+                    <font color="red">
+*
+                    </font>
+                     Name as you would like it printed on the card <a href="#"> (Prefix like Shri, Smt, Kumari, Late, Dr, CA, Ms, Mr, Mrs, M/s, Alias etc. are not allowed)</a> </b> 
 
                 </td>
             </tr>
             <tr>
-                <td>
+                <td id="blank"> 
+
+                </td>
+                <td colspan="2"width="98%">
                 <input type="text">
                 </td>
 
             </tr>
 
             <tr>
-                <td><b>
+                <td id="blank"> 
+
+                </td>
+                <td colspan="2"width="98%">
+                    <b>
                     Details of Parents.  <a href="#"> (Prefix like Shri, Smt, Kumari, Late, Dr, CA, Ms, Mr, Mrs, M/s, Alias etc. are not allowed.)</a> </b> 
 
                 </td>
             </tr>
             <tr>
-                <td><b>
-                    Whether mother is single parent and you wish to apply for PAN by furnishing the name of your mother only  </b> 
+                <td id="blank"> 
 
                 </td>
-                <td>
-                    <form method="GET">
+                <td><b>
+                    Whether mother is single parent and you wish to apply for PAN by furnishing the name of your mother only  </b> 
+<br>
+                </td>
+                
+                <td colspan="2"> 
                     <input type="radio" id="yes"name="yes" value="yes"> 
                     <label for="yes">Yes</label>
                         <input type="radio"id="no" name="no" value="no">
                         <label for="no">No</label>
-                        </form>
+                        <br>
+                        
                 </td>
             </tr>
             <tr>
-                <td><b>
-                    *Father's Name <a href="#"> (Mandatory field. Even married women should give father's name only.)</a> </b> 
+                <td id="blank"> 
+
+                </td>
+                <td colspan="4">
+                    <b>
+                    <font color="red">*</font>
+                    Father's Name 
+                    <a href="#"> (Mandatory field. Even married women should give father's name only.)</a> 
+                </b> 
 
                 </td>
             </tr>
+
             <tr>
-                <td><b>
-                    Last Name/Surname  </b>
-                        
-                </td>
-                <td>
-                    First Name
-                </td>
-                <td>
-                    Middle Name
-                </td>
+                <td id="blank"> 
+                    </td>
+                 <td colspan="3">
+                    <table width="100%" cellpadding="0" cellspacing="0">
+                        <tbody>
+                            <tr>
+                                <td>
+                                <b>Last Name/Surname  </b>
+                                <br>
+                                    <input type="text">
+                                </td>
+                                <td>
+                                    <b>First Name</b> 
+                                <br>
+                                    <input type="text">
+                                </td>
+                                <td>
+                                <b>Middle Name</b>
+                                <br>
+    
+                            <input type="text">
+                                </td> 
+
+
+                            </tr>
+                            </tbody>
+                    </table>
+                    </td>
             </tr>
+
+
+
+
+
+
+
+
+
+
+
             <tr>
-                <td><input type="text">
+                <td id="blank"> 
+
                 </td>
-                <td><input type="text">
-                </td>
-                <td><input type="text">
-                </td>
-            </tr>
-            <tr>
                 <td><b>
                    <a href="#">  *Mother's Name(This field is optional.)</a> </b> 
 
                 </td>
             </tr>
             <tr>
+                <td id="blank"> 
+
+                </td>
                 <td><b>
                     Last Name/Surname  </b>
                         
@@ -155,6 +293,9 @@ border-collapse:collapse;
                 </td>
             </tr>
             <tr>
+                <td id="blank"> 
+
+                </td>
                 <td><input type="text">
                 </td>
                 <td><input type="text">
@@ -164,6 +305,9 @@ border-collapse:collapse;
             </tr>
 
             <tr>
+                <td id="blank"> 
+
+                </td>
                 <td>
                     <b> *4. Select Parent name which is to be printed on the card</b>
                    
@@ -183,6 +327,9 @@ border-collapse:collapse;
              
             </tr>
             <tr>
+                <td id="blank"> 
+
+                </td>
                 <td>
                     <b>  	* 5. Date of Birth/Incorporation/Agreement/Partnership
                         or Trust Deed/Formation of Body of Individuals/
@@ -198,6 +345,9 @@ border-collapse:collapse;
                 </td>
             </tr>
             <tr>
+                <td id="blank"> 
+
+                </td>
                 <td>
                     <b>
                         * 6.Gender
@@ -214,6 +364,9 @@ border-collapse:collapse;
                 </td>
             </tr>
            <tr>
+            <td id="blank"> 
+
+            </td>
                <td>
                <b>
                   7. Photo Mismatch
@@ -221,6 +374,9 @@ border-collapse:collapse;
                </td>
            </tr>
            <tr>
+            <td id="blank"> 
+
+            </td>
             <td>
             <b>
                 8. Signature Mismatch 
@@ -228,6 +384,9 @@ border-collapse:collapse;
             </td>
         </tr>
         <tr>
+            <td id="blank"> 
+
+            </td>
             <td>
             <b>
                 * 9. Address for Communication 
@@ -242,6 +401,9 @@ border-collapse:collapse;
 
         </tr>
         <tr>
+            <td id="blank"> 
+
+            </td>
             <td>
             <b>
                 Office Name (to be filled only in case of office address)
@@ -252,6 +414,9 @@ border-collapse:collapse;
             </td>
         </tr>
         <tr>
+            <td id="blank"> 
+
+            </td>
             <td>
             <b>
                 Flat/Door/Block No.
@@ -263,6 +428,9 @@ border-collapse:collapse;
         </tr>
 
         <tr>
+            <td id="blank"> 
+
+            </td>
             <td>
             <b>
                 Name of Premises/Building/Village
@@ -273,6 +441,9 @@ border-collapse:collapse;
             </td>
         </tr>
         <tr>
+            <td id="blank"> 
+
+            </td>
             <td>
             <b>
                 Road/Street/Lane/Post Office
@@ -284,6 +455,9 @@ border-collapse:collapse;
         </tr>
 
         <tr>
+            <td id="blank"> 
+
+            </td>
             <td>
             <b>
                 Area/Locality/Taluka/Sub-Division
@@ -294,6 +468,9 @@ border-collapse:collapse;
             </td>
         </tr>
         <tr>
+            <td id="blank"> 
+
+            </td>
             <td>
             <b>
                 Town/City/District
@@ -304,6 +481,9 @@ border-collapse:collapse;
             </td>
         </tr>
         <tr>
+            <td id="blank"> 
+
+            </td>
             <td>
             <b>
                 State/Union Territory
@@ -315,6 +495,9 @@ border-collapse:collapse;
         </tr>
 
         <tr>
+            <td id="blank"> 
+
+            </td>
             <td>
             <b>
                 PIN (Indicating PIN is mandatory)
@@ -326,6 +509,9 @@ border-collapse:collapse;
         </tr>
 
         <tr>
+            <td id="blank"> 
+
+            </td>
             <td>
             <b>
                 Country
@@ -336,6 +522,9 @@ border-collapse:collapse;
             </td>
         </tr>
         <tr>
+            <td id="blank"> 
+
+            </td>
             <td>
             <b>
                 ZIP
@@ -346,6 +535,9 @@ border-collapse:collapse;
             </td>
         </tr>
         <tr>
+            <td id="blank"> 
+
+            </td>
             <td>
             <b>
                 10. If you desire to update your other address, give required details & Submit proof of other address also. 
@@ -356,6 +548,9 @@ border-collapse:collapse;
             </td>
         </tr>
         <tr>
+            <td id="blank"> 
+
+            </td>
             <td>
             <b>
                 * 11. Telephone No.
@@ -369,6 +564,9 @@ border-collapse:collapse;
         
         
         <tr>
+            <td id="blank"> 
+
+            </td>
             <td>
             <b>
                 E-mail ID
@@ -379,6 +577,9 @@ border-collapse:collapse;
             </td>
         </tr> 
         <tr>
+            <td id="blank"> 
+
+            </td>
             <td>
             <b>
                 In case of a citizen of India, then 
@@ -392,6 +593,9 @@ border-collapse:collapse;
             </td>
         </tr> 
         <tr>
+            <td id="blank"> 
+
+            </td>
             <td>
             <b>
                 * 12. AADHAAR number : 
@@ -405,6 +609,9 @@ border-collapse:collapse;
             </td>
         </tr> 
         <tr>
+            <td id="blank"> 
+
+            </td>
             <td>
             
                * Name as per AADHAAR letter or as per the enrollment ID of Aadhaar application form
@@ -416,6 +623,9 @@ border-collapse:collapse;
             </td>
         </tr> 
         <tr>
+            <td id="blank"> 
+
+            </td>
             <td><b> 13. GSTN</b>
                
             </td>
@@ -425,6 +635,9 @@ border-collapse:collapse;
             </td>
         </tr> 
         <tr>
+            <td id="blank"> 
+
+            </td>
             <td>
                 <b>
                     14. Mention other Permanent Account Numbers (PANs) if any,inadvertently allotted to you. Submit proof of surrendered PAN(s) along with the application. 
@@ -433,6 +646,9 @@ border-collapse:collapse;
         </tr>
 
         <tr>
+            <td id="blank"> 
+
+            </td>
             <td>
                 <b>PAN1 </b>
                 <input type="text">
@@ -445,6 +661,9 @@ border-collapse:collapse;
             </td>
         </tr>
         <tr>
+            <td id="blank"> 
+
+            </td>
             <td>
                 <b>PAN 3 </b>
                 <input type="text">
@@ -457,6 +676,9 @@ border-collapse:collapse;
             </td>
         </tr>
         <tr>
+            <td id="blank"> 
+
+            </td>
             <td>
                 <b>
                     15. Verification 
@@ -464,6 +686,9 @@ border-collapse:collapse;
             </td>
         </tr>
         <tr>
+            <td id="blank"> 
+
+            </td>
             <td>
                 I/We <input type="text">, the applicant,in the capacity of <input type="">do hereby declare that what is stated above is true to the best of my information and belief.
                 I have enclosed  <input type="text"> of documents) in support of proposed changes/corrections. 
@@ -471,12 +696,18 @@ border-collapse:collapse;
             </td>
         </tr>
         <tr>
+            <td id="blank"> 
+
+            </td>
             <td>
                         DD MM YYYY
                 Verified today,the 16 - 12 -2020  
             </td>
         </tr>
         <tr>
+            <td id="blank"> 
+
+            </td>
             <td>
                 I/We have enclosed <input type="text">as proof of identity, 
                 <br>
@@ -487,6 +718,9 @@ border-collapse:collapse;
             </td>
         </tr>
         <tr>
+            <td id="blank"> 
+
+            </td>
             <td>
                 <b>Whether you wish to have?    </b>
                     <input type="radio"id="Physical PAN Card & e-PAN Card "name=" Physical PAN Card & e-PAN Card ">
@@ -499,10 +733,16 @@ border-collapse:collapse;
             </td>
         </tr>
         <tr>
+            <td id="blank"> 
+
+            </td>
             <td><b>Other Details</b>    
             </td>
         </tr>
         <tr>
+            <td id="blank"> 
+
+            </td>
             <td>
                 <b>
                     1. Depository Account Details
@@ -511,6 +751,9 @@ border-collapse:collapse;
         </tr>
             
         <tr>
+            <td id="blank"> 
+
+            </td>
             <td>
                 <b>
                     DP ID: <input type="text"> CLIENT ID:<input type="text">
@@ -518,6 +761,9 @@ border-collapse:collapse;
             </td>
         </tr>  
         <tr>
+            <td id="blank"> 
+
+            </td>
             <td>
                 <b>
                     2. Payment Details
@@ -525,6 +771,9 @@ border-collapse:collapse;
             </td>
         </tr>
         <tr>
+            <td id="blank"> 
+
+            </td>
             <td>
                 <b>
                    Online Payment
@@ -532,6 +781,7 @@ border-collapse:collapse;
             </td>
         </tr>
         </table>
+        <div class="style">
         
             For Paperless PAN Application:<input type="radio"name="YES"value="YES">
             <label for="YES">YES</label>
@@ -554,6 +804,6 @@ border-collapse:collapse;
         <input type="submit">
     
         
-   
+   <div>
 </body>
 </html>
